@@ -16,5 +16,6 @@ basic.forever(function () {
     count += diff
     strip.setPixelColor(count, neopixel.colors(NeoPixelColors.Red))
     strip.setPixelColor(count - 1, neopixel.colors(NeoPixelColors.Black))
+    strip.setPixelColor(count + 1, neopixel.colors(NeoPixelColors.Black))
     strip.show()
 })
